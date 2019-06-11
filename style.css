@@ -74,14 +74,6 @@ a {
 }
 	
 
-
-/*.{
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	right: 0;
-}*/
 .interlude{
 	position: relative;
 	height: 300px;
@@ -107,7 +99,7 @@ a {
 }
 
 .svg_green {
-	animation: spin 60s linear infinite;
+	animation: spin 50s linear infinite;
 }
 .svg_green .a{
 	stroke: rgb(0,140,140);
@@ -274,7 +266,7 @@ button img{
 
 @media screen and (max-width: 900px){
 	body{
-		font-size: 28px;
+		font-size: 33px;
 	}
 	main {
 		width: 90%;
