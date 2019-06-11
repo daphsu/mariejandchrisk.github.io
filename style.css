@@ -137,33 +137,33 @@ a {
 label{
 	position: absolute;
 	top: 15px;
-	left: 19px;
+	left: 0px;
 	font-size: 18px;
 }
 
 input, textarea, .select-field ul{
 	display: block;
 	width: 100%;
-	font-size: 18px;
+	font-size: .75em;
 	font-family: "Amira Semi Bd";
 	color: rgb(0,140,140);
-	padding: 18px;
-	padding-top: 40px;
+	padding: 40px 18px 9px 0px;
 	margin: 0;
-	border: 1px solid rgb(255,110,0);
+	border: 0;
 	border-radius: 0;
+	border-bottom: 2px solid rgb(255,110,0);
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	background: rgba(255,110,0, 0.1);
-	transition: background-color .3s ease-in-out, border-color .3s ease-in-out, height .1s linear;
+	background: #fff;
+	transition: border-color .3s ease-in-out, height .1s linear;
 }
 
 input:focus, textarea:focus, .select-field ul:focus, button:focus {
 	outline: none;
 	border-color: rgb(0,140,140);
 	box-shadow: none;
-	background: rgba(255,255,255,0.7);
+	background: #fff;
 }
 
 
@@ -211,7 +211,7 @@ input:hover, textarea:hover, .select-field ul:hover{
 
 
 .select-field.open ul{
-	height: 112px;
+	height: 140px;
 }
 
 .select-field.open li.option {
@@ -240,18 +240,19 @@ button{
 	display: block;
 	width: 100%;
 	height: 70px;
-	font-size: 18px;
+	font-size: .75em;
 	font-family: "Amira Semi Bd";
-	background: rgba(255,110,0,0.8);
-	color: #fff;
-	border: 1px solid rgb(255,110,0);
+	background: #fff;
+	color: rgb(255,110,0);
+	border: 2px solid rgb(255,110,0);
 	appearance: none;
 	-webkit-appearance: none;
-	transition: background-color .3s ease-in-out;
+	transition: color .3s ease-in-out, background-color .3s ease-in-out;
 }
 
 
 button:hover{
+	color: #fff;
 	background: rgba(255,110,0,1);
 }
 
