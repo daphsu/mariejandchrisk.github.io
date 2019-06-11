@@ -135,9 +135,6 @@ a {
 }
 
 label{
-	position: absolute;
-	top: 15px;
-	left: 0px;
 	font-size: 18px;
 }
 
@@ -147,7 +144,7 @@ input, textarea, .select-field ul{
 	font-size: .75em;
 	font-family: "Amira Semi Bd";
 	color: rgb(0,140,140);
-	padding: 40px 18px 9px 0px;
+	padding: 0px 18px 9px 0px;
 	margin: 0;
 	border: 0;
 	border-radius: 0;
@@ -191,7 +188,7 @@ input:hover, textarea:hover, .select-field ul:hover{
 
 .select-field ul{
 	list-style-type: none;
-	height: 85px;
+	height: 50px;
 	overflow: hidden;
 }
 
@@ -211,7 +208,7 @@ input:hover, textarea:hover, .select-field ul:hover{
 
 
 .select-field.open ul{
-	height: 140px;
+	height: 100px;
 }
 
 .select-field.open li.option {
@@ -234,6 +231,7 @@ button:hover{
 
 textarea{
 	resize: vertical;
+	height: 8em;
 }
 
 button{
@@ -241,6 +239,7 @@ button{
 	width: 100%;
 	height: 70px;
 	font-size: .75em;
+	margin-top: 3em;
 	font-family: "Amira Semi Bd";
 	background: #fff;
 	color: rgb(255,110,0);
