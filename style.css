@@ -273,13 +273,13 @@ img {
 	max-height: 800px;
 	mix-blend-mode: screen;
 	display: block;
-	transform: rotate(3deg);
+	transform: rotate(5deg);
 }
 
 .img:nth-of-type(2n) {
 	margin-left: 50%;
 	background: rgb(255,110,0);
-	transform: rotate(-3deg);
+	transform: rotate(-5deg);
 }
 /*
 .images .img:before {
