@@ -19,7 +19,7 @@ main {
 	width: 100%;
 	max-width: 900px;
 	margin: auto;
-	margin-bottom: 30vh;
+	margin-bottom: 20vh;
 }
 
 h1, h2, p {
@@ -259,7 +259,7 @@ button img{
 }
 
 
-.images .img{
+.img{
 	background: rgb(0,140,140);
 	width: 500px;
 	/*background-size: cover;
@@ -313,7 +313,6 @@ img {
 	}
 	main {
 		width: 90%;
-		padding-bottom: 1em;
 	}
 	.wheel {
 		width: 140px;
@@ -329,6 +328,13 @@ img {
 		height: 90vh;
 	}
 	.info{
+		margin-left: 0;
+	}
+
+	.img{
+		width: 95%;
+	}
+	.img:nth-of-type(2n){
 		margin-left: 0;
 	}
 }
